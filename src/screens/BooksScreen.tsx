@@ -17,6 +17,7 @@ import { getGridLayout } from '../utils/layoutUtils';
 const BookGridItem = React.memo(({ item, cardWidth }: { item: Book; cardWidth: number }) => {
   const handleOpen = useCallback(async () => {
     const url = item.previewUrl;
+    
 
     if (!url) {
       Alert.alert(getText('errorTitle', defaultLocale), getText('noViewableVersion', defaultLocale));

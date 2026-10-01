@@ -73,19 +73,11 @@ The implementation follows the Gutendex API contract and includes loading, empty
 - Only books with image MIME types are requested, matching the requirement to surface books with covers.
 - The supplied design references do not include reusable icon asset files, so category, back, and forward icons use Material vector icons from `@expo/vector-icons`, chosen to approximate the reference icons.
 - The app prefers HTML, then PDF, then TXT links when opening a book. If none are available, it shows the required alert: “No viewable version available”.
-- The project includes the app architecture and functionality required by the assignment; a full video asset for the final submission should be recorded separately and added to the repo before final delivery.
+- A screen recording of the app is included below.
 
 ## Demo video
 
-Add a short demo video showing:
-
-- category selection on the home screen
-- book list loading and infinite scroll
-- search term filtering
-- book opening behavior
-- portrait and landscape orientations
-
-Suggested file location: `docs/demo.mp4`
+[Watch the app screen recording](./assets/screen-20261001-104748-1790831824318.mp4).
 
 ## Notes
 
